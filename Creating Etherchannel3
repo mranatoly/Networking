@@ -1,3 +1,5 @@
+enable
+configure terminal
 interface range gi1/0/21 - 22
  switchport mode trunk
  channel-group 1 mode active
