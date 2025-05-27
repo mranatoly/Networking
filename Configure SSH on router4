@@ -1,0 +1,9 @@
+
+Router(config)# hostname R1
+R1(config)# ip domain-name <domainname.com>
+R1(config)# crypto key generate rsa
+R1(config)# user <username> secret <password>
+R1(config)# line vty 0 4
+R1(config-line)# login local
+R1(config-line)# transport input ssh
+exit
