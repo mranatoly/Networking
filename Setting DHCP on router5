@@ -7,5 +7,7 @@ ip dhcp pool <pool name ^^e.g. LAN10^^>
 
 Make exlcusion in dhcp:
 ip dhcp excluded-address 192.168.40.1 192.168.40.10
+exit 
+
 
 this mean these ip address between 1-10 will not be shared
