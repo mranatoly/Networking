@@ -1,0 +1,9 @@
+interface range gi1/0/21 - 22
+ switchport mode trunk
+ channel-group 1 mode active
+exit
+
+
+(interface range from fe0/21 to 22)
+
+must set these on both devices
