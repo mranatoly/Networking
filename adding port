@@ -1,0 +1,6 @@
+interface range gi1/0/1 - 10
+ switchport mode access
+ switchport access vlan 10
+ spanning-tree portfast
+
+(range from fe0/1 to  10)
