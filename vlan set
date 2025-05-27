@@ -1,0 +1,4 @@
+enable
+configure terminal
+vlan 10
+name <vlan name>
