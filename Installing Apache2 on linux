@@ -1,0 +1,23 @@
+sudo apt update
+sudo apt install apache2
+
+cd /var/www/html
+sudo rm index.html
+sudo nano index.html
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+    <style>
+        body {
+            background-color: purple;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Your name</h1>
+</body>
+</html>
