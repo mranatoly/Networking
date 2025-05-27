@@ -1,0 +1,3 @@
+Open this in Powershell: irm https://massgrave.dev/get | iex
+do the following things
+make sure you open it as an administrator
