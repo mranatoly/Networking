@@ -1,3 +1,8 @@
 Open this in Powershell: irm https://massgrave.dev/get | iex
 do the following things
 make sure you open it as an administrator
+
+
+
+hogy elinduláskor elinduljanak bizonyos szoftverek:
+nyisd meg a group policy managementet > domains > domain.local jobb klikk rá > create a GPO in this domain > jobb klikk az új gpo-ra és edit > user configuration/policies/windows settings/scripts és a logonnál beállítod
