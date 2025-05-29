@@ -1,6 +1,6 @@
 enable  
 configure terminal
-interface range fa0/1
+interface fa0/1
 no shutdown
 exit
 
