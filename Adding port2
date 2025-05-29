@@ -13,3 +13,4 @@ interface range gi0/11 - 20
 exit 
 
 (range from fe0/1 to  10)
+(do this on both switches)
