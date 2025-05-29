@@ -5,4 +5,11 @@ interface range fa0/1 - 10
  switchport access vlan 10
 exit
 
+enable
+configure terminal
+interface range gi0/11 - 20
+ switchport mode access
+ switchport access vlan 20
+exit 
+
 (range from fe0/1 to  10)
