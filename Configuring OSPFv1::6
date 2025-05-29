@@ -14,7 +14,8 @@ enable
 configure terminal
 router ospf 1
  network 192.168.3.0 0.0.0.255 area 0
- network 192.168.4.0 0.0.0.255 area 0
+ network 192.168.4.0 0.0.0.127 area 0
+ network 192.168.4.128 0.0.0.127 area 0
 exit
 
 do this on both router
