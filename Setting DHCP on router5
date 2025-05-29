@@ -1,12 +1,12 @@
 enable
 configure terminal
 ip dhcp pool <pool name ^^e.g. LAN10^^>
- network 192.168.40.0 255.255.255.128
+ network 192.168.4.0 255.255.255.128
  default-router 192.168.40.1
  dns-server 8.8.8.8
 
 Make exlcusion in dhcp:
-ip dhcp excluded-address 192.168.40.1 192.168.40.10
+ip dhcp excluded-address 192.168.4.1 192.168.4.10
 exit 
 
 
