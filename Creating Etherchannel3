@@ -9,3 +9,11 @@ exit
 (interface range from fa0/21 to 22)
 
 must set these on both devices
+
+enable
+configure terminal
+interface fa0/0
+ switchport mode trunk
+exit
+
+do this on that switch, which looks to router
