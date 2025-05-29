@@ -4,7 +4,15 @@ interface fa0/1
 no shutdown
 exit
 
+enable
+configure terminal 
+interface serial0/1
+no shutdown
+exit
+
+enable
+configure terminal
 router ospf 1
- network 10.0.0.0 0.0.0.3 area 0
- network 192.168.10.0 0.0.0.255 area 0
+ network 192.168.3.0 0.0.0.255 area 0
+ network 192.168.4.0 0.0.0.255 area 0
 exit
