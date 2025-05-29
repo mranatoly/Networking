@@ -3,3 +3,5 @@ configure terminal
 vlan 10
 name <vlan name>
 exit
+
+2 vlans
