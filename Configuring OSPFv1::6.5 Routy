@@ -1,0 +1,11 @@
+enable
+configure terminal
+interface se0/0/1
+ ip address 192.168.3x.1 255.255.255.0
+ no shutdown
+exit
+
+interface fa0/0
+ ip address 192.168.2x.1 255.255.255.248
+no shutdown
+exit
