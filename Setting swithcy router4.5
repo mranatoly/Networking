@@ -1,0 +1,15 @@
+interface se0/0/1
+ ip address 192.168.3.2 255.255.255.0
+ no shutdown
+
+interface fa0/0
+no shutdown
+
+interface fa0/0.10
+ encapsulation dot1Q 10
+ ip address 192.168.4.1 255.255.255.128
+
+interface fa0/0.20
+ encapsulation dot1Q 20
+ ip address 192.168.4.129 255.255.255.128
+
